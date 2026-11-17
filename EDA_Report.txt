@@ -1,0 +1,55 @@
+EXPLORATORY DATA ANALYSIS REPORT
+STUDENT PERFORMANCE ANALYSIS
+
+1. Dataset Overview
+Total Records: 395
+Total Columns: 33
+
+2. Statistical Summary
+              age  ...          G3
+count  395.000000  ...  395.000000
+mean    16.696203  ...   10.415190
+std      1.276043  ...    4.581443
+min     15.000000  ...    0.000000
+25%     16.000000  ...    8.000000
+50%     17.000000  ...   11.000000
+75%     18.000000  ...   14.000000
+max     22.000000  ...   20.000000
+
+[8 rows x 16 columns]
+
+3. Final Grade Analysis
+Mean: 10.42
+Median: 11.00
+Mode: 10
+
+
+4. Outlier Analysis
+age            1
+Medu           0
+Fedu           2
+traveltime     8
+studytime     27
+failures      83
+famrel        26
+freetime      19
+goout          0
+Dalc          18
+Walc           0
+health         0
+absences      15
+G1             0
+G2            13
+G3             0
+dtype: int64
+
+5. Top Factors Associated with Final Grade
+G2          0.904868
+G1          0.801468
+failures    0.360415
+Medu        0.217147
+age         0.161579
+Name: G3, dtype: float64
+
+6. Conclusion
+The analysis explores student grades, study time, past failures and absences. Correlation analysis helps identify relationships between these variables.
